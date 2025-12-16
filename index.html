@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruebas en CSS inline HTML</title>
+
+    <style>
+        body {
+            background-color: lightblue;
+        }
+
+        P {
+            color: red;
+        }
+        .verde {
+            color: green;
+        }
+        .naranja {
+            color: orange;
+        }
+
+        #verde {
+            color: green;
+        }
+        #naranja {
+            color: orange;
+        }
+
+        * {
+            color : black;
+        }
+
+        div.amarillo {
+            color: yellow;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <h2> Selextor con el nombre de la etiqueta </h2>
+
+    <p> Esta es una Pruebas en CSS inline HTML </p>
+    <p> Esta es una Pruebas en CSS inline HTML </p>
+    <div> Esta es una Pruebas en CSS inline HTML </div>
+
+    <h2> Selextor con clase</h2>
+
+    <div class="verde">Este texto debe ser color verde</div>
+    <div class="naranja">Este texto debe ser color naranja</div>
+
+     
+    <h2> Selextor con id</h2>
+
+    <div id="verde">Este texto debe ser color verde</div>
+    <div class="naranja">Este texto debe ser color naranja</div>
+    <div class="amarillo">Este texto debe de ser color amarillo</div>
+    <section class="amarillo"> ESte texto no deberia ser amarillo </section>
+</body>
+</html>
