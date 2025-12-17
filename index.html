@@ -5,74 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pruebas en CSS inline HTML</title>
 
-    <style>
-        body {
-            background-color: lightblue;
-        }
-
-        P {
-            color: red;
-        }
-        .verde {
-            color: green;
-        }
-        .naranja {
-            color: orange;
-        }
-
-        #verde {
-            color: green;
-        }
-        #naranja {
-            color: orange;
-        }
-
-        * {
-            color : black;
-        }
-
-        div.amarillo {
-            color: yellow;
-        }
-
-        .block {
-            display: block;
-        }
-
-        .inline {
-            display: inline;
-        }
-
-    </style>
-
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 <body>
-    <h2> Selextor con el nombre de la etiqueta </h2>
 
-    <p> Esta es una Pruebas en CSS inline HTML </p>
-    <p> Esta es una Pruebas en CSS inline HTML </p>
-    <div> Esta es una Pruebas en CSS inline HTML </div>
+    <h2>FUENTES</h2>
+    <p class="font-family"> Font-family</p>
+    <p class="font-size"> Font-size</p>
+    <p class="font-style"> Font-style</p>
+    <p class="font-weight"> Font-weight</p>
+    <p class="font-family font-size font-style font-weight"> Todo al mismo tiempo</p>
 
-    <h2> Selextor con clase</h2>
+    <h2>COLORES DE FONDO</h2>
+    <p class="color-y-fondo"> Color y fondo </p>
 
-    <div class="verde">Este texto debe ser color verde</div>
-    <div class="naranja">Este texto debe ser color naranja</div>
+    <p class="align-left"> Texto a la izquierda</p>
+    <p class="align-center"> Texto al centro</p>
+    <p class="align-right"> Texto a la derecha</p>
+    <p class="align-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae qui perferendis veniam nemo voluptatibus explicabo voluptates autem. Sed modi sapiente asperiores corporis? Minus nesciunt quia reprehenderit esse a, non dolores. </p>
 
-     
-    <h2> Selextor con id</h2>
+    <h2>Box Model</h2>
 
-    <div id="verde">Este texto debe ser color verde</div>
-    <div class="naranja">Este texto debe ser color naranja</div>
-    <div class="amarillo">Este texto debe de ser color amarillo</div>
-    <section class="amarillo"> ESte texto no deberia ser amarillo </section>
+    <div class="box"> CONTENT </div>
 
-    <h2>EJEMPLO DE BOCK VS INLINE</h2>
-
-    <div class="block"> block </div>
-    <div class="block"> block </div>
-    <div class="inline"> inline </div> <div class="inline"> inline </div>
-    <div class="inline-block"> Blooooooock </div> <div class="inlineblock"> blooooooooock 2 pero hora en inline jajaja </div>
 
 
 </body>

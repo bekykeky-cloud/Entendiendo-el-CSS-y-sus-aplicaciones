@@ -1,0 +1,51 @@
+.font-family {
+    font-family: 'baskerville', sans-serif;
+}
+
+.font-size {
+    font-size: 30px;
+}
+
+.font-style {
+    font-style: italic;
+}
+
+.font-weight {
+    font-weight: bold;
+}
+
+
+.color-y-fondo {
+    color:aquamarine;
+    background-color: black;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-justify {
+    text-align: justify;
+}
+
+.box {
+    height: 50px;
+    width: 200px;
+
+    padding: 10px;
+    margin: 10px /*arriba*/ 8px /*derecha*/ 6px /*abajo*/ 4px /*izquierda*/;
+
+    border: solid 5px black; /*Para que se muestre el borde*/
+
+
+    background-color: blueviolet;
+    color: azure;
+}
